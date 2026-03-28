@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "12V_SMPS.kicad_pro",
+    "filename": "FT234XD.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -609,6 +609,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "f01405c7-f44f-4da6-9449-d6f8d9317096",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }

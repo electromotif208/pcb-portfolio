@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "12V_SMPS.kicad_pro",
+    "filename": "MCP73831.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -479,7 +479,14 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(D2-A1)": [
+        "VIN"
+      ],
+      "Net-(J1-Pin_1)": [
+        "VBAT"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -609,6 +616,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "d98f2063-ceec-4f59-8474-78ae582a7471",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }

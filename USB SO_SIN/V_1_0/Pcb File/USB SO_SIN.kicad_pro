@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "12V_SMPS.kicad_pro",
+    "filename": "USB SO_SIN.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -609,6 +609,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "d98f2063-ceec-4f59-8474-78ae582a7471",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }
