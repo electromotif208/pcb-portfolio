@@ -5866,6 +5866,7 @@
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "919b8556-7e87-46b0-a8cb-04727ffaaf9d")
 			(effects
 				(font
@@ -5878,6 +5879,7 @@
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "fefa1ba5-d707-4ca3-982a-33ca36c4a04a")
 			(effects
 				(font
@@ -6127,18 +6129,6 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "7b8c7920-fcd7-4e35-bf63-70e63ed67073")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "df2f5161-0098-451f-b2e4-ef633477bc9f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" smd rect
 			(at -0.8001 -0.750001 180)
@@ -7271,6 +7261,17 @@
 			(uuid "740397ac-1d56-4874-b42b-37a1dc7a40d6")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/EG1247/EG1247.step"
+			(offset
+				(xyz 0 0 1)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
+			)
+		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
@@ -16295,7 +16296,7 @@
 			(uuid "62a6319e-d700-4cd0-829b-add16ef8b996")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_G-Switch_GT-USB-7010ASV.step"
+		(model "D:/pcb-portfolio/USB SO_SIN/V_1_0/Step File/CQ-USB-C16PSMT01.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16303,7 +16304,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)

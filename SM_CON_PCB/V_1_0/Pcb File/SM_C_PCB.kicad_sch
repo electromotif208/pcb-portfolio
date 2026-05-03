@@ -1654,6 +1654,16 @@
 		)
 		(uuid "347750a4-f56b-4e95-b1c3-2bbb4d62f266")
 	)
+	(bus
+		(pts
+			(xy 16.51 85.09) (xy 16.51 17.78)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot_dot)
+		)
+		(uuid "3c41d815-ba1d-49d1-b69e-99046fe1aebe")
+	)
 	(wire
 		(pts
 			(xy 57.15 45.72) (xy 69.85 45.72)
@@ -1663,6 +1673,26 @@
 			(type default)
 		)
 		(uuid "65c15a48-e9c6-478d-b5b4-6715cec5a48a")
+	)
+	(bus
+		(pts
+			(xy 16.51 17.78) (xy 181.61 17.78)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot_dot)
+		)
+		(uuid "7331050d-f4b2-4015-87f5-c127db31c680")
+	)
+	(bus
+		(pts
+			(xy 181.61 17.78) (xy 181.61 85.09)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot_dot)
+		)
+		(uuid "7c12a55c-d39d-405c-98e7-b57913d4c7e4")
 	)
 	(wire
 		(pts
@@ -1693,6 +1723,16 @@
 			(type default)
 		)
 		(uuid "8d679862-ed11-4f98-a3e2-45e23827e526")
+	)
+	(bus
+		(pts
+			(xy 181.61 85.09) (xy 16.51 85.09)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot_dot)
+		)
+		(uuid "90249360-fa69-465e-9d07-5b09d22a144e")
 	)
 	(wire
 		(pts
@@ -1903,6 +1943,16 @@
 			(justify left bottom)
 		)
 		(uuid "c017a95a-8d76-46ea-bb7d-2b421432269e")
+	)
+	(label "RESET"
+		(at 130.81 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d13dd79b-f913-49a2-b306-04ba663e96c2")
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -2356,7 +2406,7 @@
 				)
 			)
 		)
-		(property "Value" "330K"
+		(property "Value" "330R"
 			(at 153.67 41.91 90)
 			(effects
 				(font
